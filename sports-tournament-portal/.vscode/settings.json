@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/dist",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome"
+}

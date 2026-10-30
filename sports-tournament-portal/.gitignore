@@ -3,10 +3,6 @@ node_modules
 .pnp
 .pnp.js
 
-# Production build
-dist
-dist-ssr
-
 # Environment variables
 .env
 .env.local
@@ -21,7 +17,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor & OS files
-.vscode
 .idea
 *.suo
 *.ntvs*
