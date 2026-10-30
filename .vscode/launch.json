@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Live Server (Chrome - Port 5500)",
+      "url": "http://127.0.0.1:5500",
+      "webRoot": "${workspaceFolder}/sports-tournament-portal/dist"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Vite Dev Server (Chrome - Port 5173)",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/sports-tournament-portal/src"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Vite Dev Server (Edge - Port 5173)",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/sports-tournament-portal/src"
+    }
+  ]
+}

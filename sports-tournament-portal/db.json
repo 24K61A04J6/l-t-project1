@@ -1,0 +1,342 @@
+{
+  "tournaments": [
+    {
+      "id": "t1",
+      "name": "National Cricket Championship",
+      "sport": "Cricket",
+      "description": "Annual national-level cricket tournament featuring top club teams from across the country.",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-30",
+      "venue": "National Cricket Stadium, Mumbai",
+      "status": "Upcoming"
+    },
+    {
+      "id": "t2",
+      "name": "City Football League",
+      "sport": "Football",
+      "description": "Inter-city football league to discover emerging football talent.",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "venue": "City Sports Ground, Delhi",
+      "status": "Ongoing"
+    },
+    {
+      "id": "t3",
+      "name": "Summer Basketball Cup",
+      "sport": "Basketball",
+      "description": "Premier basketball tournament held every summer with teams from 8 states.",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-20",
+      "venue": "Indira Gandhi Indoor Stadium, Bangalore",
+      "status": "Completed"
+    }
+  ],
+  "teams": [
+    {
+      "id": "tm1",
+      "name": "Mumbai Strikers",
+      "sport": "Cricket",
+      "coach": "Ravi Shankar",
+      "captain": "Arjun Mehta",
+      "tournamentId": "t1",
+      "city": "Mumbai",
+      "registrationDate": "2026-10-05"
+    },
+    {
+      "id": "tm2",
+      "name": "Delhi Dynamos",
+      "sport": "Cricket",
+      "coach": "Suresh Kumar",
+      "captain": "Vikram Singh",
+      "tournamentId": "t1",
+      "city": "Delhi",
+      "registrationDate": "2026-10-06"
+    },
+    {
+      "id": "tm3",
+      "name": "Bangalore FC",
+      "sport": "Football",
+      "coach": "Carlos Mendez",
+      "captain": "Rohan Verma",
+      "tournamentId": "t2",
+      "city": "Bangalore",
+      "registrationDate": "2026-09-15"
+    },
+    {
+      "id": "tm4",
+      "name": "Chennai Warriors",
+      "sport": "Football",
+      "coach": "Pradeep Nair",
+      "captain": "Aditya Raj",
+      "tournamentId": "t2",
+      "city": "Chennai",
+      "registrationDate": "2026-09-16"
+    },
+    {
+      "id": "tm5",
+      "name": "Bangalore Ballers",
+      "sport": "Basketball",
+      "coach": "Anil Rao",
+      "captain": "Karan Malhotra",
+      "tournamentId": "t3",
+      "city": "Bangalore",
+      "registrationDate": "2026-07-20"
+    },
+    {
+      "id": "tm6",
+      "name": "Hyderabad Hoops",
+      "sport": "Basketball",
+      "coach": "Manish Reddy",
+      "captain": "Deepak Patel",
+      "tournamentId": "t3",
+      "city": "Hyderabad",
+      "registrationDate": "2026-07-21"
+    }
+  ],
+  "players": [
+    {
+      "id": "p1",
+      "name": "Arjun Mehta",
+      "age": 26,
+      "gender": "Male",
+      "sport": "Cricket",
+      "position": "Batsman",
+      "jerseyNumber": 7,
+      "teamId": "tm1",
+      "email": "arjun.mehta@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "p2",
+      "name": "Priya Sharma",
+      "age": 23,
+      "gender": "Female",
+      "sport": "Cricket",
+      "position": "Bowler",
+      "jerseyNumber": 11,
+      "teamId": "tm1",
+      "email": "priya.sharma@example.com",
+      "phone": "9876543211"
+    },
+    {
+      "id": "p3",
+      "name": "Rahul Gupta",
+      "age": 28,
+      "gender": "Male",
+      "sport": "Cricket",
+      "position": "All-Rounder",
+      "jerseyNumber": 3,
+      "teamId": "tm1",
+      "email": "rahul.gupta@example.com",
+      "phone": "9876543212"
+    },
+    {
+      "id": "p4",
+      "name": "Vikram Singh",
+      "age": 29,
+      "gender": "Male",
+      "sport": "Cricket",
+      "position": "Wicket-Keeper",
+      "jerseyNumber": 1,
+      "teamId": "tm2",
+      "email": "vikram.singh@example.com",
+      "phone": "9876543213"
+    },
+    {
+      "id": "p5",
+      "name": "Neha Patel",
+      "age": 22,
+      "gender": "Female",
+      "sport": "Cricket",
+      "position": "Bowler",
+      "jerseyNumber": 9,
+      "teamId": "tm2",
+      "email": "neha.patel@example.com",
+      "phone": "9876543214"
+    },
+    {
+      "id": "p6",
+      "name": "Rohan Verma",
+      "age": 25,
+      "gender": "Male",
+      "sport": "Football",
+      "position": "Striker",
+      "jerseyNumber": 10,
+      "teamId": "tm3",
+      "email": "rohan.verma@example.com",
+      "phone": "9876543215"
+    },
+    {
+      "id": "p7",
+      "name": "Aditya Raj",
+      "age": 27,
+      "gender": "Male",
+      "sport": "Football",
+      "position": "Midfielder",
+      "jerseyNumber": 8,
+      "teamId": "tm4",
+      "email": "aditya.raj@example.com",
+      "phone": "9876543216"
+    },
+    {
+      "id": "p8",
+      "name": "Sneha Das",
+      "age": 21,
+      "gender": "Female",
+      "sport": "Football",
+      "position": "Goalkeeper",
+      "jerseyNumber": 1,
+      "teamId": "tm4",
+      "email": "sneha.das@example.com",
+      "phone": "9876543217"
+    },
+    {
+      "id": "p9",
+      "name": "Karan Malhotra",
+      "age": 24,
+      "gender": "Male",
+      "sport": "Basketball",
+      "position": "Point Guard",
+      "jerseyNumber": 5,
+      "teamId": "tm5",
+      "email": "karan.malhotra@example.com",
+      "phone": "9876543218"
+    },
+    {
+      "id": "p10",
+      "name": "Rishi Kapoor",
+      "age": 26,
+      "gender": "Male",
+      "sport": "Basketball",
+      "position": "Shooting Guard",
+      "jerseyNumber": 23,
+      "teamId": "tm5",
+      "email": "rishi.kapoor@example.com",
+      "phone": "9876543219"
+    },
+    {
+      "id": "p11",
+      "name": "Deepak Patel",
+      "age": 25,
+      "gender": "Male",
+      "sport": "Basketball",
+      "position": "Center",
+      "jerseyNumber": 15,
+      "teamId": "tm6",
+      "email": "deepak.patel@example.com",
+      "phone": "9876543220"
+    },
+    {
+      "id": "p12",
+      "name": "Tarun Nair",
+      "age": 23,
+      "gender": "Male",
+      "sport": "Basketball",
+      "position": "Power Forward",
+      "jerseyNumber": 33,
+      "teamId": "tm6",
+      "email": "tarun.nair@example.com",
+      "phone": "9876543221"
+    }
+  ],
+  "matches": [
+    {
+      "id": "m1",
+      "tournamentId": "t1",
+      "teamAId": "tm1",
+      "teamBId": "tm2",
+      "matchDate": "2026-11-05",
+      "matchTime": "10:00",
+      "venue": "National Cricket Stadium, Mumbai",
+      "status": "Scheduled"
+    },
+    {
+      "id": "m2",
+      "tournamentId": "t2",
+      "teamAId": "tm3",
+      "teamBId": "tm4",
+      "matchDate": "2026-10-20",
+      "matchTime": "15:00",
+      "venue": "City Sports Ground, Delhi",
+      "status": "Completed"
+    },
+    {
+      "id": "m3",
+      "tournamentId": "t2",
+      "teamAId": "tm4",
+      "teamBId": "tm3",
+      "matchDate": "2026-10-25",
+      "matchTime": "16:00",
+      "venue": "City Sports Ground, Delhi",
+      "status": "Completed"
+    },
+    {
+      "id": "m4",
+      "tournamentId": "t1",
+      "teamAId": "tm2",
+      "teamBId": "tm1",
+      "matchDate": "2026-11-10",
+      "matchTime": "14:00",
+      "venue": "National Cricket Stadium, Mumbai",
+      "status": "Scheduled"
+    },
+    {
+      "id": "m5",
+      "tournamentId": "t3",
+      "teamAId": "tm5",
+      "teamBId": "tm6",
+      "matchDate": "2026-08-05",
+      "matchTime": "18:00",
+      "venue": "Indira Gandhi Indoor Stadium, Bangalore",
+      "status": "Completed"
+    },
+    {
+      "id": "m6",
+      "tournamentId": "t3",
+      "teamAId": "tm6",
+      "teamBId": "tm5",
+      "matchDate": "2026-08-15",
+      "matchTime": "18:30",
+      "venue": "Indira Gandhi Indoor Stadium, Bangalore",
+      "status": "Completed"
+    }
+  ],
+  "results": [
+    {
+      "id": "r1",
+      "matchId": "m2",
+      "teamAScore": 3,
+      "teamBScore": 1,
+      "winnerTeamId": "tm3",
+      "remarks": "Bangalore FC dominated with excellent teamwork in the second half.",
+      "recordedAt": "2026-10-20T18:30:00Z"
+    },
+    {
+      "id": "r2",
+      "matchId": "m3",
+      "teamAScore": 2,
+      "teamBScore": 2,
+      "winnerTeamId": null,
+      "remarks": "Exciting draw — both teams played well in extra time.",
+      "recordedAt": "2026-10-25T19:00:00Z"
+    },
+    {
+      "id": "r3",
+      "matchId": "m5",
+      "teamAScore": 88,
+      "teamBScore": 82,
+      "winnerTeamId": "tm5",
+      "remarks": "Thrilling opener, Bangalore Ballers pulled ahead in the 4th quarter.",
+      "recordedAt": "2026-08-05T20:30:00Z"
+    },
+    {
+      "id": "r4",
+      "matchId": "m6",
+      "teamAScore": 79,
+      "teamBScore": 76,
+      "winnerTeamId": "tm6",
+      "remarks": "Hyderabad Hoops fought back with strong three-pointers.",
+      "recordedAt": "2026-08-15T21:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start JSON Server (Backend)",
+      "type": "shell",
+      "command": "npm run server",
+      "options": {
+        "cwd": "${workspaceFolder}/sports-tournament-portal"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "servers"
+      }
+    },
+    {
+      "label": "Start Vite Dev Server (Frontend)",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": {
+        "cwd": "${workspaceFolder}/sports-tournament-portal"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "servers"
+      }
+    },
+    {
+      "label": "Build for Live Server (Production Dist)",
+      "type": "shell",
+      "command": "npm run build",
+      "options": {
+        "cwd": "${workspaceFolder}/sports-tournament-portal"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Full Project (Backend + Frontend)",
+      "dependsOn": [
+        "Start JSON Server (Backend)",
+        "Start Vite Dev Server (Frontend)"
+      ],
+      "dependsOrder": "parallel",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
